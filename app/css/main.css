@@ -1,0 +1,31 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/**
+  * BASE
+**/
+html {
+  font-size: 1.3em;
+}
+
+body {
+  background: #f5f3f4;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  line-height: 1.4;
+}
+
+.show {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+/**
+* LAYOUT
+**/
